@@ -1,0 +1,547 @@
+2024/05/18 17:33:44.324274 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 0
+2024/05/18 17:33:44.365893 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 1
+2024/05/18 17:33:44.406963 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:0 , gid:100
+2024/05/18 17:33:44.407059 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:1 , gid:100
+2024/05/18 17:33:44.407104 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:2 , gid:100
+2024/05/18 17:33:44.407143 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:3 , gid:100
+2024/05/18 17:33:44.407181 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:4 , gid:100
+2024/05/18 17:33:44.407221 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:5 , gid:100
+2024/05/18 17:33:44.407260 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:6 , gid:100
+2024/05/18 17:33:44.407295 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:7 , gid:100
+2024/05/18 17:33:44.407332 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:8 , gid:100
+2024/05/18 17:33:44.407370 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:9 , gid:100
+2024/05/18 17:33:44.412511 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:0 , gid:100
+2024/05/18 17:33:44.412583 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:1 , gid:100
+2024/05/18 17:33:44.412596 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:2 , gid:100
+2024/05/18 17:33:44.412605 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:3 , gid:100
+2024/05/18 17:33:44.412611 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:4 , gid:100
+2024/05/18 17:33:44.412621 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:5 , gid:100
+2024/05/18 17:33:44.412629 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:6 , gid:100
+2024/05/18 17:33:44.412636 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:7 , gid:100
+2024/05/18 17:33:44.412645 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:8 , gid:100
+2024/05/18 17:33:44.412651 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:9 , gid:100
+2024/05/18 17:33:44.412731 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:0 , gid:100
+2024/05/18 17:33:44.412810 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:1 , gid:100
+2024/05/18 17:33:44.412851 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:2 , gid:100
+2024/05/18 17:33:44.412881 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:3 , gid:100
+2024/05/18 17:33:44.412910 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:4 , gid:100
+2024/05/18 17:33:44.412940 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:5 , gid:100
+2024/05/18 17:33:44.413087 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:6 , gid:100
+2024/05/18 17:33:44.413125 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:7 , gid:100
+2024/05/18 17:33:44.413155 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:8 , gid:100
+2024/05/18 17:33:44.413185 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:9 , gid:100
+2024/05/18 17:33:44.449535 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:0 , gid:100
+2024/05/18 17:33:44.449581 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:1 , gid:100
+2024/05/18 17:33:44.449597 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:2 , gid:100
+2024/05/18 17:33:44.449610 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:3 , gid:100
+2024/05/18 17:33:44.449623 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:4 , gid:100
+2024/05/18 17:33:44.449632 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:5 , gid:101
+2024/05/18 17:33:44.449641 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:6 , gid:101
+2024/05/18 17:33:44.449650 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:7 , gid:101
+2024/05/18 17:33:44.449660 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:8 , gid:101
+2024/05/18 17:33:44.449671 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:9 , gid:101
+2024/05/18 17:33:44.449701 /home/sunyifan/study/6.5840/src/shardkv/server.go:138: 100发现需要ask迁移的shard:5 confignum:2
+2024/05/18 17:33:44.449778 /home/sunyifan/study/6.5840/src/shardkv/server.go:138: 100发现需要ask迁移的shard:6 confignum:2
+2024/05/18 17:33:44.449844 /home/sunyifan/study/6.5840/src/shardkv/server.go:138: 100发现需要ask迁移的shard:7 confignum:2
+2024/05/18 17:33:44.449901 /home/sunyifan/study/6.5840/src/shardkv/server.go:138: 100发现需要ask迁移的shard:8 confignum:2
+2024/05/18 17:33:44.449965 /home/sunyifan/study/6.5840/src/shardkv/server.go:138: 100发现需要ask迁移的shard:9 confignum:2
+2024/05/18 17:33:44.452600 /home/sunyifan/study/6.5840/src/shardkv/server.go:121: 101回应ask迁移的shard:5, confignum:1
+2024/05/18 17:33:44.453787 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:0 , gid:100
+2024/05/18 17:33:44.453851 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:1 , gid:100
+2024/05/18 17:33:44.453886 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:2 , gid:100
+2024/05/18 17:33:44.453915 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:3 , gid:100
+2024/05/18 17:33:44.453965 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:4 , gid:100
+2024/05/18 17:33:44.454383 /home/sunyifan/study/6.5840/src/shardkv/server.go:121: 101回应ask迁移的shard:8, confignum:1
+2024/05/18 17:33:44.452991 /home/sunyifan/study/6.5840/src/shardkv/server.go:121: 101回应ask迁移的shard:6, confignum:1
+2024/05/18 17:33:44.453113 /home/sunyifan/study/6.5840/src/shardkv/server.go:121: 101回应ask迁移的shard:7, confignum:1
+2024/05/18 17:33:44.454391 /home/sunyifan/study/6.5840/src/shardkv/server.go:121: 101回应ask迁移的shard:9, confignum:1
+2024/05/18 17:33:44.454406 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:5 , gid:101
+2024/05/18 17:33:44.455169 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:6 , gid:101
+2024/05/18 17:33:44.455181 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:7 , gid:101
+2024/05/18 17:33:44.455194 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:8 , gid:101
+2024/05/18 17:33:44.455203 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:9 , gid:101
+2024/05/18 17:33:44.456046 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:0 , gid:100
+2024/05/18 17:33:44.456078 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:1 , gid:100
+2024/05/18 17:33:44.456101 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:2 , gid:100
+2024/05/18 17:33:44.456222 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:3 , gid:100
+2024/05/18 17:33:44.456241 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:4 , gid:100
+2024/05/18 17:33:44.456248 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:5 , gid:101
+2024/05/18 17:33:44.456256 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:6 , gid:101
+2024/05/18 17:33:44.456264 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:7 , gid:101
+2024/05/18 17:33:44.456270 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:8 , gid:101
+2024/05/18 17:33:44.456290 /home/sunyifan/study/6.5840/src/shardkv/server.go:346: shard:9 , gid:101
+2024/05/18 17:33:44.475127 /home/sunyifan/study/6.5840/src/shardkv/server.go:365: [AddShard] gid:101, shard:5 confignum:2
+2024/05/18 17:33:44.475183 /home/sunyifan/study/6.5840/src/shardkv/server.go:365: [AddShard] gid:101, shard:8 confignum:2
+2024/05/18 17:33:44.475597 /home/sunyifan/study/6.5840/src/shardkv/server.go:365: [AddShard] gid:101, shard:6 confignum:2
+2024/05/18 17:33:44.475631 /home/sunyifan/study/6.5840/src/shardkv/server.go:365: [AddShard] gid:101, shard:7 confignum:2
+2024/05/18 17:33:44.475819 /home/sunyifan/study/6.5840/src/shardkv/server.go:365: [AddShard] gid:101, shard:9 confignum:2
+2024/05/18 17:33:44.510575 /home/sunyifan/study/6.5840/src/shardkv/server.go:372: [RemoveShard] gid:100, shard:8 confignum:2
+2024/05/18 17:33:44.510700 /home/sunyifan/study/6.5840/src/shardkv/server.go:372: [RemoveShard] gid:100, shard:5 confignum:2
+2024/05/18 17:33:44.510807 /home/sunyifan/study/6.5840/src/shardkv/server.go:372: [RemoveShard] gid:100, shard:7 confignum:2
+2024/05/18 17:33:44.510852 /home/sunyifan/study/6.5840/src/shardkv/server.go:372: [RemoveShard] gid:100, shard:6 confignum:2
+2024/05/18 17:33:44.510915 /home/sunyifan/study/6.5840/src/shardkv/server.go:372: [RemoveShard] gid:100, shard:9 confignum:2
+2024/05/18 17:33:44.513692 /home/sunyifan/study/6.5840/src/shardkv/server.go:365: [AddShard] gid:101, shard:5 confignum:2
+2024/05/18 17:33:44.513754 /home/sunyifan/study/6.5840/src/shardkv/server.go:365: [AddShard] gid:101, shard:8 confignum:2
+2024/05/18 17:33:44.513775 /home/sunyifan/study/6.5840/src/shardkv/server.go:365: [AddShard] gid:101, shard:6 confignum:2
+2024/05/18 17:33:44.513789 /home/sunyifan/study/6.5840/src/shardkv/server.go:365: [AddShard] gid:101, shard:7 confignum:2
+2024/05/18 17:33:44.513804 /home/sunyifan/study/6.5840/src/shardkv/server.go:365: [AddShard] gid:101, shard:9 confignum:2
+2024/05/18 17:33:44.515113 /home/sunyifan/study/6.5840/src/shardkv/server.go:365: [AddShard] gid:101, shard:5 confignum:2
+2024/05/18 17:33:44.515194 /home/sunyifan/study/6.5840/src/shardkv/server.go:365: [AddShard] gid:101, shard:8 confignum:2
+2024/05/18 17:33:44.515237 /home/sunyifan/study/6.5840/src/shardkv/server.go:365: [AddShard] gid:101, shard:6 confignum:2
+2024/05/18 17:33:44.515295 /home/sunyifan/study/6.5840/src/shardkv/server.go:365: [AddShard] gid:101, shard:7 confignum:2
+2024/05/18 17:33:44.515336 /home/sunyifan/study/6.5840/src/shardkv/server.go:365: [AddShard] gid:101, shard:9 confignum:2
+2024/05/18 17:33:44.552122 /home/sunyifan/study/6.5840/src/shardkv/server.go:372: [RemoveShard] gid:100, shard:8 confignum:2
+2024/05/18 17:33:44.552209 /home/sunyifan/study/6.5840/src/shardkv/server.go:372: [RemoveShard] gid:100, shard:5 confignum:2
+2024/05/18 17:33:44.552228 /home/sunyifan/study/6.5840/src/shardkv/server.go:372: [RemoveShard] gid:100, shard:7 confignum:2
+2024/05/18 17:33:44.552240 /home/sunyifan/study/6.5840/src/shardkv/server.go:372: [RemoveShard] gid:100, shard:6 confignum:2
+2024/05/18 17:33:44.552252 /home/sunyifan/study/6.5840/src/shardkv/server.go:372: [RemoveShard] gid:100, shard:9 confignum:2
+2024/05/18 17:33:44.554096 /home/sunyifan/study/6.5840/src/shardkv/server.go:372: [RemoveShard] gid:100, shard:8 confignum:2
+2024/05/18 17:33:44.554132 /home/sunyifan/study/6.5840/src/shardkv/server.go:372: [RemoveShard] gid:100, shard:5 confignum:2
+2024/05/18 17:33:44.554147 /home/sunyifan/study/6.5840/src/shardkv/server.go:372: [RemoveShard] gid:100, shard:7 confignum:2
+2024/05/18 17:33:44.554160 /home/sunyifan/study/6.5840/src/shardkv/server.go:372: [RemoveShard] gid:100, shard:6 confignum:2
+2024/05/18 17:33:44.554173 /home/sunyifan/study/6.5840/src/shardkv/server.go:372: [RemoveShard] gid:100, shard:9 confignum:2
+2024/05/18 17:33:45.410648 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/18 17:34:44.332464 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 0
+2024/05/18 17:34:44.353010 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 1
+2024/05/18 17:34:45.386334 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/18 17:34:47.745840 /home/sunyifan/study/6.5840/src/shardkv/config.go:272: StartGroup 1
+2024/05/18 17:34:48.387465 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/18 17:34:48.387593 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/18 17:34:48.387627 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/18 17:34:48.552343 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 0
+2024/05/18 17:34:48.572401 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 1
+2024/05/18 17:34:52.196175 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/18 17:34:52.196237 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/18 17:34:52.196263 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/18 17:34:52.319645 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 0
+2024/05/18 17:34:53.370088 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 1
+2024/05/18 17:34:56.318709 /home/sunyifan/study/6.5840/src/shardkv/config.go:338: leave 0
+2024/05/18 17:34:58.340703 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/18 17:34:58.738624 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/18 17:34:58.738687 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/18 17:34:58.738714 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/18 17:34:58.881892 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 0
+2024/05/18 17:35:01.496523 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 1
+2024/05/18 17:35:01.537374 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 2
+2024/05/18 17:35:01.579068 /home/sunyifan/study/6.5840/src/shardkv/config.go:338: leave 0
+2024/05/18 17:35:04.446225 /home/sunyifan/study/6.5840/src/shardkv/config.go:338: leave 1
+2024/05/18 17:35:04.478549 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 0
+2024/05/18 17:35:10.575621 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/18 17:35:10.575689 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/18 17:35:10.576917 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/18 17:35:10.576978 /home/sunyifan/study/6.5840/src/shardkv/config.go:272: StartGroup 0
+2024/05/18 17:35:10.578996 /home/sunyifan/study/6.5840/src/shardkv/config.go:272: StartGroup 1
+2024/05/18 17:35:10.580394 /home/sunyifan/study/6.5840/src/shardkv/config.go:272: StartGroup 2
+2024/05/18 17:35:12.113835 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/18 17:35:12.114020 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/18 17:35:12.114084 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/18 17:35:12.209340 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 0
+2024/05/18 17:35:13.289774 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 1
+2024/05/18 17:35:13.331626 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 2
+2024/05/18 17:35:13.350581 /home/sunyifan/study/6.5840/src/shardkv/config.go:338: leave 1
+2024/05/18 17:35:13.391623 /home/sunyifan/study/6.5840/src/shardkv/config.go:338: leave 0
+2024/05/18 17:35:15.649207 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 1
+2024/05/18 17:35:20.347088 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 0
+2024/05/18 17:35:20.392248 /home/sunyifan/study/6.5840/src/shardkv/config.go:338: leave 2
+2024/05/18 17:35:23.009944 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/18 17:35:23.010129 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/18 17:35:23.010194 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/18 17:35:23.137930 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 0
+2024/05/18 17:35:23.914417 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 1
+2024/05/18 17:35:24.456068 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 2
+2024/05/18 17:35:24.997895 /home/sunyifan/study/6.5840/src/shardkv/config.go:338: leave 0
+2024/05/18 17:35:25.030880 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/18 17:35:25.132881 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/18 17:35:25.233198 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/18 17:35:25.233380 /home/sunyifan/study/6.5840/src/shardkv/config.go:338: leave 2
+2024/05/18 17:35:25.383178 /home/sunyifan/study/6.5840/src/shardkv/config.go:272: StartGroup 0
+2024/05/18 17:35:25.385338 /home/sunyifan/study/6.5840/src/shardkv/config.go:272: StartGroup 1
+2024/05/18 17:35:25.387783 /home/sunyifan/study/6.5840/src/shardkv/config.go:272: StartGroup 2
+2024/05/18 17:35:25.489347 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 0
+2024/05/18 17:35:25.532841 /home/sunyifan/study/6.5840/src/shardkv/config.go:338: leave 1
+2024/05/18 17:35:26.077395 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 1
+2024/05/18 17:35:27.631434 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/18 17:35:27.631635 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/18 17:35:27.631671 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/18 17:35:27.796275 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 1
+2024/05/18 17:35:27.817561 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 0
+2024/05/18 17:35:27.859856 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 2
+2024/05/18 17:35:28.982298 /home/sunyifan/study/6.5840/src/shardkv/config.go:338: leave 0
+2024/05/18 17:35:29.004358 /home/sunyifan/study/6.5840/src/shardkv/config.go:338: leave 2
+2024/05/18 17:35:32.046536 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 0
+2024/05/18 17:35:32.079341 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 2
+2024/05/18 17:35:32.105350 /home/sunyifan/study/6.5840/src/shardkv/config.go:338: leave 1
+2024/05/18 17:35:35.150220 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 1
+2024/05/18 17:35:35.200014 /home/sunyifan/study/6.5840/src/shardkv/config.go:338: leave 0
+2024/05/18 17:35:35.241096 /home/sunyifan/study/6.5840/src/shardkv/config.go:338: leave 2
+2024/05/18 17:35:38.274206 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/18 17:35:38.274441 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/18 17:35:39.274873 /home/sunyifan/study/6.5840/src/shardkv/config.go:272: StartGroup 1
+2024/05/18 17:35:39.286459 /home/sunyifan/study/6.5840/src/shardkv/config.go:272: StartGroup 2
+2024/05/18 17:35:42.269906 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/18 17:35:42.270149 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/18 17:35:42.270219 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/18 17:35:42.413314 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 0
+2024/05/18 17:35:43.432420 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 2
+2024/05/18 17:35:43.458699 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 1
+2024/05/18 17:35:43.952652 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/18 17:35:43.952730 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/18 17:35:43.952764 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/18 17:35:43.952811 /home/sunyifan/study/6.5840/src/shardkv/config.go:272: StartGroup 0
+2024/05/18 17:35:43.954735 /home/sunyifan/study/6.5840/src/shardkv/config.go:272: StartGroup 1
+2024/05/18 17:35:43.956285 /home/sunyifan/study/6.5840/src/shardkv/config.go:272: StartGroup 2
+2024/05/18 17:35:44.574522 /home/sunyifan/study/6.5840/src/shardkv/config.go:338: leave 1
+2024/05/18 17:35:44.607938 /home/sunyifan/study/6.5840/src/shardkv/config.go:338: leave 2
+2024/05/18 17:35:44.677748 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 2
+2024/05/18 17:35:44.710906 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 1
+2024/05/18 17:35:45.548452 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/18 17:35:45.548529 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/18 17:35:45.548564 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/18 17:35:45.548609 /home/sunyifan/study/6.5840/src/shardkv/config.go:272: StartGroup 0
+2024/05/18 17:35:45.550331 /home/sunyifan/study/6.5840/src/shardkv/config.go:272: StartGroup 1
+2024/05/18 17:35:45.552260 /home/sunyifan/study/6.5840/src/shardkv/config.go:272: StartGroup 2
+2024/05/18 17:35:45.795875 /home/sunyifan/study/6.5840/src/shardkv/config.go:338: leave 1
+2024/05/18 17:35:45.840840 /home/sunyifan/study/6.5840/src/shardkv/config.go:338: leave 2
+2024/05/18 17:35:46.676535 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 2
+2024/05/18 17:35:46.730465 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 1
+2024/05/18 17:35:46.978126 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/18 17:35:46.978259 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/18 17:35:46.978323 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/18 17:35:46.978379 /home/sunyifan/study/6.5840/src/shardkv/config.go:272: StartGroup 0
+2024/05/18 17:35:46.980164 /home/sunyifan/study/6.5840/src/shardkv/config.go:272: StartGroup 1
+2024/05/18 17:35:46.981972 /home/sunyifan/study/6.5840/src/shardkv/config.go:272: StartGroup 2
+2024/05/18 17:35:47.776929 /home/sunyifan/study/6.5840/src/shardkv/config.go:338: leave 1
+2024/05/18 17:35:47.808604 /home/sunyifan/study/6.5840/src/shardkv/config.go:338: leave 2
+2024/05/18 17:35:48.196089 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 2
+2024/05/18 17:35:48.230996 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 1
+2024/05/18 17:35:48.655249 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/18 17:35:48.655333 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/18 17:35:48.655369 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/18 17:35:48.656305 /home/sunyifan/study/6.5840/src/shardkv/config.go:272: StartGroup 0
+2024/05/18 17:35:48.658336 /home/sunyifan/study/6.5840/src/shardkv/config.go:272: StartGroup 1
+2024/05/18 17:35:48.665555 /home/sunyifan/study/6.5840/src/shardkv/config.go:272: StartGroup 2
+2024/05/18 17:35:49.334225 /home/sunyifan/study/6.5840/src/shardkv/config.go:338: leave 1
+2024/05/18 17:35:49.349512 /home/sunyifan/study/6.5840/src/shardkv/config.go:338: leave 2
+2024/05/18 17:35:50.238588 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 2
+2024/05/18 17:35:50.264129 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 1
+2024/05/18 17:35:50.334207 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/18 17:35:50.334380 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/18 17:35:50.334471 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/18 17:35:50.334741 /home/sunyifan/study/6.5840/src/shardkv/config.go:272: StartGroup 0
+2024/05/18 17:35:50.336574 /home/sunyifan/study/6.5840/src/shardkv/config.go:272: StartGroup 1
+2024/05/18 17:35:50.338409 /home/sunyifan/study/6.5840/src/shardkv/config.go:272: StartGroup 2
+2024/05/18 17:35:50.967598 /home/sunyifan/study/6.5840/src/shardkv/config.go:338: leave 1
+2024/05/18 17:35:51.009792 /home/sunyifan/study/6.5840/src/shardkv/config.go:338: leave 2
+2024/05/18 17:35:51.155375 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 2
+2024/05/18 17:35:51.179827 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 1
+2024/05/18 17:35:51.737216 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/18 17:35:51.737418 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/18 17:35:51.737493 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/18 17:35:51.737578 /home/sunyifan/study/6.5840/src/shardkv/config.go:272: StartGroup 0
+2024/05/18 17:35:51.739767 /home/sunyifan/study/6.5840/src/shardkv/config.go:272: StartGroup 1
+2024/05/18 17:35:51.741429 /home/sunyifan/study/6.5840/src/shardkv/config.go:272: StartGroup 2
+2024/05/18 17:35:52.499558 /home/sunyifan/study/6.5840/src/shardkv/config.go:338: leave 1
+2024/05/18 17:35:52.517888 /home/sunyifan/study/6.5840/src/shardkv/config.go:338: leave 2
+2024/05/18 17:35:53.087117 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 2
+2024/05/18 17:35:53.129743 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 1
+2024/05/18 17:35:53.597939 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/18 17:35:53.598092 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/18 17:35:53.598161 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/18 17:35:53.598236 /home/sunyifan/study/6.5840/src/shardkv/config.go:272: StartGroup 0
+2024/05/18 17:35:53.600120 /home/sunyifan/study/6.5840/src/shardkv/config.go:272: StartGroup 1
+2024/05/18 17:35:53.601867 /home/sunyifan/study/6.5840/src/shardkv/config.go:272: StartGroup 2
+2024/05/18 17:35:53.860489 /home/sunyifan/study/6.5840/src/shardkv/config.go:338: leave 1
+2024/05/18 17:35:53.897538 /home/sunyifan/study/6.5840/src/shardkv/config.go:338: leave 2
+2024/05/18 17:35:54.450327 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 2
+2024/05/18 17:35:54.474543 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 1
+2024/05/18 17:35:54.604704 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/18 17:35:54.604869 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/18 17:35:54.604967 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/18 17:35:54.605045 /home/sunyifan/study/6.5840/src/shardkv/config.go:272: StartGroup 0
+2024/05/18 17:35:54.606885 /home/sunyifan/study/6.5840/src/shardkv/config.go:272: StartGroup 1
+2024/05/18 17:35:54.608486 /home/sunyifan/study/6.5840/src/shardkv/config.go:272: StartGroup 2
+2024/05/18 17:35:55.372419 /home/sunyifan/study/6.5840/src/shardkv/config.go:338: leave 1
+2024/05/18 17:35:55.428126 /home/sunyifan/study/6.5840/src/shardkv/config.go:338: leave 2
+2024/05/18 17:35:58.191872 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/18 17:35:58.192212 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/18 17:35:58.192266 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/18 17:35:58.358013 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 0
+2024/05/18 17:36:00.163151 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 1
+2024/05/18 17:36:00.260672 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 2
+2024/05/18 17:36:00.446088 /home/sunyifan/study/6.5840/src/shardkv/config.go:338: leave 0
+2024/05/18 17:36:08.559781 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 0
+2024/05/18 17:36:08.632945 /home/sunyifan/study/6.5840/src/shardkv/config.go:338: leave 1
+2024/05/18 17:36:11.921505 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/18 17:36:11.921693 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/18 17:36:11.921764 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/18 17:36:12.131658 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 0
+2024/05/18 17:36:16.078098 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 1
+2024/05/18 17:36:16.730205 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 2
+2024/05/18 17:36:17.268658 /home/sunyifan/study/6.5840/src/shardkv/config.go:338: leave 0
+2024/05/18 17:36:17.827473 /home/sunyifan/study/6.5840/src/shardkv/config.go:338: leave 1
+2024/05/18 17:36:18.405741 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 1
+2024/05/18 17:36:18.467364 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 0
+2024/05/18 17:36:21.347952 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/18 17:36:21.348113 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/18 17:36:21.348355 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/18 17:36:21.578877 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 0
+2024/05/18 17:36:23.675681 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 1
+2024/05/18 17:36:24.230832 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 2
+2024/05/18 17:36:24.791812 /home/sunyifan/study/6.5840/src/shardkv/config.go:338: leave 0
+2024/05/18 17:36:25.347320 /home/sunyifan/study/6.5840/src/shardkv/config.go:338: leave 1
+2024/05/18 17:36:25.889224 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 1
+2024/05/18 17:36:25.958267 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 0
+2024/05/18 17:36:28.342649 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/18 17:36:28.342848 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/18 17:36:28.342915 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/18 17:36:28.470846 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 0
+2024/05/18 17:36:29.894981 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 1
+2024/05/18 17:36:29.931736 /home/sunyifan/study/6.5840/src/shardkv/config.go:338: leave 0
+2024/05/18 17:36:29.972433 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 2
+2024/05/18 17:36:33.271354 /home/sunyifan/study/6.5840/src/shardkv/config.go:338: leave 1
+2024/05/18 17:36:33.309663 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 0
+2024/05/18 17:36:33.350687 /home/sunyifan/study/6.5840/src/shardkv/config.go:338: leave 2
+2024/05/18 17:36:36.619232 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 1
+2024/05/18 17:36:36.648466 /home/sunyifan/study/6.5840/src/shardkv/config.go:338: leave 0
+2024/05/18 17:36:36.690311 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 2
+2024/05/18 17:36:39.947424 /home/sunyifan/study/6.5840/src/shardkv/config.go:338: leave 1
+2024/05/18 17:36:39.995350 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 0
+2024/05/18 17:36:40.015659 /home/sunyifan/study/6.5840/src/shardkv/config.go:338: leave 2
+2024/05/18 17:36:43.367242 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 1
+2024/05/18 17:36:43.395307 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 2
+2024/05/18 17:36:48.329895 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/18 17:36:48.330094 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/18 17:36:48.330166 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/18 17:36:48.812425 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 0
+2024/05/18 17:36:51.734517 /home/sunyifan/study/6.5840/src/shardkv/config.go:315: join 1
+2024/05/18 17:36:55.139037 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/18 17:36:55.139197 /home/sunyifan/study/6.5840/src/shardkv/config.go:338: leave 0
+2024/05/18 17:36:58.615281 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/18 17:36:58.615749 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/18 17:36:58.615839 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/18 17:37:02.748935 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/18 17:37:05.863962 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/18 17:37:05.864056 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/18 17:37:05.864089 /home/sunyifan/study/6.5840/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/19 14:42:48.537396 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 0
+2024/05/19 14:42:48.578882 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 1
+2024/05/19 14:42:49.599783 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/19 14:42:51.974026 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:272: StartGroup 1
+2024/05/19 14:42:52.603903 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/19 14:42:52.604336 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/19 14:42:52.604532 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/19 14:42:52.750524 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 0
+2024/05/19 14:42:52.793578 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 1
+2024/05/19 14:42:56.169719 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/19 14:42:56.169953 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/19 14:42:56.170021 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/19 14:42:56.291393 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 0
+2024/05/19 14:42:57.393200 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 1
+2024/05/19 14:43:00.512796 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:338: leave 0
+2024/05/19 14:43:02.391391 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/19 14:43:02.865789 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/19 14:43:02.866313 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/19 14:43:02.866687 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/19 14:43:02.989517 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 0
+2024/05/19 14:43:05.633892 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 1
+2024/05/19 14:43:05.674844 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 2
+2024/05/19 14:43:05.716723 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:338: leave 0
+2024/05/19 14:43:08.234591 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:338: leave 1
+2024/05/19 14:43:08.255983 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 0
+2024/05/19 14:43:14.137072 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/19 14:43:14.138954 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/19 14:43:14.139113 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/19 14:43:14.139272 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:272: StartGroup 0
+2024/05/19 14:43:14.141426 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:272: StartGroup 1
+2024/05/19 14:43:14.142959 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:272: StartGroup 2
+2024/05/19 14:43:15.532885 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/19 14:43:15.533122 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/19 14:43:15.533232 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/19 14:43:15.716042 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 0
+2024/05/19 14:43:16.832019 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 1
+2024/05/19 14:43:16.873336 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 2
+2024/05/19 14:43:16.894023 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:338: leave 1
+2024/05/19 14:43:16.934202 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:338: leave 0
+2024/05/19 14:43:19.409184 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 1
+2024/05/19 14:43:24.299202 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 0
+2024/05/19 14:43:24.320562 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:338: leave 2
+2024/05/19 14:43:26.698872 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/19 14:43:26.699560 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/19 14:43:26.699849 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/19 14:43:26.821569 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 0
+2024/05/19 14:43:27.492695 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 1
+2024/05/19 14:43:28.031673 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 2
+2024/05/19 14:43:28.576540 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:338: leave 0
+2024/05/19 14:43:28.598464 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/19 14:43:28.698866 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/19 14:43:28.799852 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/19 14:43:28.799891 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:338: leave 2
+2024/05/19 14:43:28.924927 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:272: StartGroup 0
+2024/05/19 14:43:28.925258 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:272: StartGroup 1
+2024/05/19 14:43:28.925488 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:272: StartGroup 2
+2024/05/19 14:43:29.027243 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 0
+2024/05/19 14:43:29.075006 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:338: leave 1
+2024/05/19 14:43:29.597626 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 1
+2024/05/19 14:43:31.231051 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/19 14:43:31.231095 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/19 14:43:31.231106 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/19 14:43:31.373201 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 1
+2024/05/19 14:43:31.414439 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 0
+2024/05/19 14:43:31.455517 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 2
+2024/05/19 14:43:32.452722 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:338: leave 0
+2024/05/19 14:43:32.494640 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:338: leave 2
+2024/05/19 14:43:35.535650 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 0
+2024/05/19 14:43:35.580850 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 2
+2024/05/19 14:43:35.601398 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:338: leave 1
+2024/05/19 14:43:38.644007 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 1
+2024/05/19 14:43:38.683375 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:338: leave 0
+2024/05/19 14:43:38.726292 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:338: leave 2
+2024/05/19 14:43:41.748405 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/19 14:43:41.748646 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/19 14:43:42.749760 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:272: StartGroup 1
+2024/05/19 14:43:42.751908 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:272: StartGroup 2
+2024/05/19 14:43:45.303933 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/19 14:43:45.303982 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/19 14:43:45.303992 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/19 14:43:45.425863 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 0
+2024/05/19 14:43:46.301104 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 2
+2024/05/19 14:43:46.342015 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 1
+2024/05/19 14:43:46.612714 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/19 14:43:46.613079 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/19 14:43:46.613337 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/19 14:43:46.613567 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:272: StartGroup 0
+2024/05/19 14:43:46.614656 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:272: StartGroup 1
+2024/05/19 14:43:46.615798 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:272: StartGroup 2
+2024/05/19 14:43:47.160838 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:338: leave 1
+2024/05/19 14:43:47.198116 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:338: leave 2
+2024/05/19 14:43:47.890030 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 2
+2024/05/19 14:43:47.901247 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 1
+2024/05/19 14:43:48.153467 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/19 14:43:48.153632 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/19 14:43:48.153789 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/19 14:43:48.153875 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:272: StartGroup 0
+2024/05/19 14:43:48.154249 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:272: StartGroup 1
+2024/05/19 14:43:48.154590 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:272: StartGroup 2
+2024/05/19 14:43:48.893063 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:338: leave 1
+2024/05/19 14:43:48.922118 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:338: leave 2
+2024/05/19 14:43:49.795320 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 2
+2024/05/19 14:43:49.843155 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 1
+2024/05/19 14:43:50.568943 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/19 14:43:50.569244 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/19 14:43:50.569353 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/19 14:43:50.569453 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:272: StartGroup 0
+2024/05/19 14:43:50.569946 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:272: StartGroup 1
+2024/05/19 14:43:50.570306 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:272: StartGroup 2
+2024/05/19 14:43:50.860788 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:338: leave 1
+2024/05/19 14:43:50.876807 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:338: leave 2
+2024/05/19 14:43:51.585708 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 2
+2024/05/19 14:43:51.621308 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 1
+2024/05/19 14:43:52.080402 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/19 14:43:52.080527 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/19 14:43:52.080582 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/19 14:43:52.080634 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:272: StartGroup 0
+2024/05/19 14:43:52.080941 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:272: StartGroup 1
+2024/05/19 14:43:52.081193 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:272: StartGroup 2
+2024/05/19 14:43:52.880499 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:338: leave 1
+2024/05/19 14:43:52.910655 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:338: leave 2
+2024/05/19 14:43:53.219713 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 2
+2024/05/19 14:43:53.265206 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 1
+2024/05/19 14:43:53.416358 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/19 14:43:53.416679 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/19 14:43:53.416814 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/19 14:43:53.416891 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:272: StartGroup 0
+2024/05/19 14:43:53.417317 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:272: StartGroup 1
+2024/05/19 14:43:53.417617 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:272: StartGroup 2
+2024/05/19 14:43:54.004512 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:338: leave 1
+2024/05/19 14:43:54.058885 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:338: leave 2
+2024/05/19 14:43:54.955182 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 2
+2024/05/19 14:43:54.975875 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 1
+2024/05/19 14:43:55.729910 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/19 14:43:55.729944 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/19 14:43:55.729954 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/19 14:43:55.729960 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:272: StartGroup 0
+2024/05/19 14:43:55.730201 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:272: StartGroup 1
+2024/05/19 14:43:55.730399 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:272: StartGroup 2
+2024/05/19 14:43:55.895785 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:338: leave 1
+2024/05/19 14:43:55.913929 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:338: leave 2
+2024/05/19 14:43:56.647465 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 2
+2024/05/19 14:43:56.685532 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 1
+2024/05/19 14:43:56.904781 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/19 14:43:56.904937 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/19 14:43:56.905003 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/19 14:43:56.905059 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:272: StartGroup 0
+2024/05/19 14:43:56.905417 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:272: StartGroup 1
+2024/05/19 14:43:56.905686 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:272: StartGroup 2
+2024/05/19 14:43:57.771500 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:338: leave 1
+2024/05/19 14:43:57.791548 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:338: leave 2
+2024/05/19 14:43:57.886630 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 2
+2024/05/19 14:43:57.914847 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 1
+2024/05/19 14:43:58.191119 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/19 14:43:58.191708 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/19 14:43:58.192121 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/19 14:43:58.192518 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:272: StartGroup 0
+2024/05/19 14:43:58.194745 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:272: StartGroup 1
+2024/05/19 14:43:58.196192 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:272: StartGroup 2
+2024/05/19 14:43:58.969044 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:338: leave 1
+2024/05/19 14:43:58.981927 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:338: leave 2
+2024/05/19 14:44:01.900279 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/19 14:44:01.901996 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/19 14:44:01.902660 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/19 14:44:02.502767 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 0
+2024/05/19 14:44:06.087407 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 1
+2024/05/19 14:44:06.150239 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 2
+2024/05/19 14:44:06.212813 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:338: leave 0
+2024/05/19 14:44:16.548555 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 0
+2024/05/19 14:44:16.746897 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:338: leave 1
+2024/05/19 14:44:21.542238 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/19 14:44:21.542555 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/19 14:44:21.542609 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/19 14:44:21.751213 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 0
+2024/05/19 14:44:23.263902 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 1
+2024/05/19 14:44:23.825275 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 2
+2024/05/19 14:44:24.385384 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:338: leave 0
+2024/05/19 14:44:24.924383 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:338: leave 1
+2024/05/19 14:44:25.491135 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 1
+2024/05/19 14:44:25.533322 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 0
+2024/05/19 14:44:28.420047 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/19 14:44:28.420422 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/19 14:44:28.420610 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/19 14:44:28.794730 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 0
+2024/05/19 14:44:32.656698 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 1
+2024/05/19 14:44:33.191909 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 2
+2024/05/19 14:44:33.731173 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:338: leave 0
+2024/05/19 14:44:34.273410 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:338: leave 1
+2024/05/19 14:44:34.854981 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 1
+2024/05/19 14:44:34.896705 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 0
+2024/05/19 14:44:37.180924 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/19 14:44:37.181605 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/19 14:44:37.182019 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/19 14:44:37.326143 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 0
+2024/05/19 14:44:38.812274 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 1
+2024/05/19 14:44:38.834178 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:338: leave 0
+2024/05/19 14:44:38.875121 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 2
+2024/05/19 14:44:42.159194 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:338: leave 1
+2024/05/19 14:44:42.199944 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 0
+2024/05/19 14:44:42.240829 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:338: leave 2
+2024/05/19 14:44:45.573777 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 1
+2024/05/19 14:44:45.599600 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:338: leave 0
+2024/05/19 14:44:45.640993 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 2
+2024/05/19 14:44:48.938500 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:338: leave 1
+2024/05/19 14:44:48.973614 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 0
+2024/05/19 14:44:48.994604 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:338: leave 2
+2024/05/19 14:44:52.240098 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 1
+2024/05/19 14:44:52.260132 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 2
+2024/05/19 14:44:57.073985 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/19 14:44:57.074248 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/19 14:44:57.074401 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/19 14:44:57.321668 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 0
+2024/05/19 14:45:00.340453 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:315: join 1
+2024/05/19 14:45:02.411425 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/19 14:45:02.411605 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:338: leave 0
+2024/05/19 14:45:05.061182 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/19 14:45:05.061293 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/19 14:45:05.061324 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 2
+2024/05/19 14:45:08.334526 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/19 14:45:11.552642 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 0
+2024/05/19 14:45:11.553520 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 1
+2024/05/19 14:45:11.553857 /home/sunyifan/study/Mit6.5840Lab/src/shardkv/config.go:204: ShutdownGroup 2

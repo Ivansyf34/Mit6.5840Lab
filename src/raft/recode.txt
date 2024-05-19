@@ -1,0 +1,1 @@
+LeaderTick 加一把大锁，可能出现还没处理完上个tick，start直接发送造成开始发送snap，出现错误
