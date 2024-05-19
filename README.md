@@ -10,7 +10,7 @@
 
 ##### MapReduce流程总览
 
-![image-20240519153530266](photo\image-20240519153530266.png)
+![image-20240519153530266](https://github.com/Ivansyf34/Mit6.5840Lab/blob/main/photo/image-20240519153530266.png)
 
 ##### 数据结构设计
 
