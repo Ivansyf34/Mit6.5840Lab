@@ -28,9 +28,9 @@ type KVServer struct {
 
 // detect duplicate operation
 // return true if the operation is duplicate
-func (kv *KVServer) handleDuplicateOp(args *PutAppendArgs, reply *PutAppendReply) bool {
+func (kv *KVServer) isDuplicateOp(args *PutAppendArgs, reply *PutAppendReply) bool {
 	lastOp, ok := kv.lastClientOp[args.ClientId]
-	if ok && lastOp.Seq == args.Seq {
+	if ok && lastOp.Seq >= args.Seq {
 		// same operation, return the same result
 		reply.Value = lastOp.Value
 		return true
@@ -51,14 +51,14 @@ func (kv *KVServer) Get(args *GetArgs, reply *GetReply) {
 	}
 
 	// delete last operation result for the client, release memory
-	delete(kv.lastClientOp, args.ClientId)
+	//delete(kv.lastClientOp, args.ClientId)
 }
 
 func (kv *KVServer) Put(args *PutAppendArgs, reply *PutAppendReply) {
 	// Your code here.
 	kv.mu.Lock()
 	defer kv.mu.Unlock()
-	if kv.handleDuplicateOp(args, reply) {
+	if kv.isDuplicateOp(args, reply) {
 		return
 	}
 
@@ -74,7 +74,7 @@ func (kv *KVServer) Append(args *PutAppendArgs, reply *PutAppendReply) {
 	// Your code here.
 	kv.mu.Lock()
 	defer kv.mu.Unlock()
-	if kv.handleDuplicateOp(args, reply) {
+	if kv.isDuplicateOp(args, reply) {
 		return
 	}
 

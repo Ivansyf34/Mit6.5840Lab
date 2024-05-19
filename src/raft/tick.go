@@ -124,10 +124,6 @@ func (rf *Raft) LeaderTick(){
 					if rf.role != Leader {
 						return
 					}
-					// 返回的任期已经落后当前任期 -> reply 无效
-					if reply.Term < rf.currentTerm {
-						return
-					}
 					if reply.Term > rf.currentTerm{
 						rf.votedFor = -1
 						rf.electionTimer = time.Now()

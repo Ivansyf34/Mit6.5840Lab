@@ -76,15 +76,13 @@ type Raft struct {
 	role      		int
 	electionTimer   time.Time
 	havevoted		int
-	// 2B
+
 	log				[]LogEntry
 	commitIndex 	int				// 当前log中的最高索引(从0开始,递增)
 	lastApplied		int				// 当前被用到状态机中的日志最高索引(从0开始,递增)
 	nextIndex		[]int  			// 发送给每台服务器的下一条日志目录索引(初始值为leader的commitIndex + 1)
 	matchIndex		[]int			// 每台服务器已知的已被复制的最高日志条目索引
 
-	/* lastLogIndex 	int				// 候选者得最高日志索引
-	lastLogTerm		int				// 候选者得最高日志term */
 	applyCh			chan ApplyMsg	// 存储machine state
 
 	lastIncludeIndex int 			// 快照中包含的最后日志条目的索引值
@@ -98,11 +96,10 @@ const (
 	Leader            int = 2
 
 	APPLIEDSLEEP 	  int = 20
+
 	// 随机生成投票过期时间范围: MoreVoteTime+MinVoteTime ~ MinVoteTime
 	MoreVoteTime 	  int = 120
 	MinVoteTime       int = 80
-
-	// HeartbeatSleep
 	HeartbeatSleep    int = 35
 )
 
@@ -423,12 +420,14 @@ func (rf *Raft) Start(command interface{}) (int, int, bool) {
 	rf.persist()
 	rf.nextIndex[rf.me] = rf.getLogLen() + 1
 	defer func(){
-		if(rf.lastIncludeIndex > 0){
+		/* if(rf.lastIncludeIndex > 0){
 			rf.mu.Unlock()
-			//rf.LeaderTick()
+			rf.LeaderTick()
 		}else{
 			rf.mu.Unlock()
-		}
+		} */
+		rf.mu.Unlock()
+		rf.LeaderTick()
 	}()
 	//return index + 1, currentTerm, isLeader
 	return index + 1, rf.currentTerm, rf.role == Leader

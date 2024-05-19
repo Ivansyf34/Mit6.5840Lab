@@ -10,24 +10,24 @@ import "time"
 import "sync"
 
 type Task struct{
-	Type 		int // 0-Map 1-Reduce 2-End
-	Id 			int
-	Done        bool // 0-Begin 1-Running 2-End
-	FileName 	string
-	ReduceNum   int
-	MapNum      int 
-	startAt 	time.Time
+	Type 		int 		// 0-Map 1-Reduce 2-End
+	Id 			int			// Id
+	Done        bool 		// 0-Begin 1-Running 2-End
+	FileName 	string 		// 文件名称
+	ReduceNum   int 		// Reduce任务数量
+	MapNum      int 		// Map任务数量
+	startAt 	time.Time 	// 开始时间
 }
 
 type Coordinator struct {
 	// Your definitions here.
 	mutex        		sync.Mutex
-	ReduceNum  			int
-	TaskReduceChan 		[]Task
-	TaskMapChan    		[]Task
-	HaveFinMap 			int
-	HaveFinReduce 		int
-	MapNum      		int 
+	TaskReduceChan 		[]Task 	// Reduce任务
+	TaskMapChan    		[]Task 	// Map任务
+	HaveFinMap 			int	   	// 已经完成Map任务数量
+	HaveFinReduce 		int		// 已经完成Reduce任务数量
+	MapNum      		int 	// Map任务数量
+	ReduceNum  			int 	// Reduce任务数量
 }
 
 // Your code here -- RPC handlers for the worker to call.

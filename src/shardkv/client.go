@@ -66,7 +66,6 @@ func (ck *Clerk) nextSeq() int64 {
 	return atomic.AddInt64(&ck.seq, 1)
 }
 
-
 // fetch the current value for a key.
 // returns "" if the key does not exist.
 // keeps trying forever in the face of all other errors.
