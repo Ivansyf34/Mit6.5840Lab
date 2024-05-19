@@ -448,12 +448,10 @@ func TestConcurrent1_5B(t *testing.T) {
 
 	time.Sleep(1 * time.Second)
 
-	fmt.Printf("  aaaaaaaaaaa\n")
 	atomic.StoreInt32(&done, 1)
 	for i := 0; i < n; i++ {
 		<-ch
 	}
-	fmt.Printf("  bbbbbbbbbbb\n")
 
 	for i := 0; i < n; i++ {
 		check(t, ck, ka[i], va[i])

@@ -102,7 +102,7 @@ const (
 	MoreVoteTime 	  int = 120
 	MinVoteTime       int = 80
 
-	// HeartbeatSleep 心脏休眠时间,要注意的是，这个时间要比选举低，才能建立稳定心跳机制
+	// HeartbeatSleep
 	HeartbeatSleep    int = 35
 )
 

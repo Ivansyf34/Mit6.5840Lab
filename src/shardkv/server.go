@@ -237,11 +237,6 @@ func (kv *ShardKV) Start(cmd *Op, reply *OpAppendReply) Err{
 	select {
 	case response := <-ch:
 		//log.Printf("[Op] %d %s key = %s success, index:%d",kv.me, cmd.Do, cmd.Key, index)
-		/* if response.Seq != op.Seq || response.ClientId != op.ClientId {
-			reply.Err = ErrWrongGroup
-			kv.mu.Unlock()
-			return reply
-		} */
 		reply.Err = OK
 		reply.Value = response.Value
 		return OK
@@ -250,16 +245,6 @@ func (kv *ShardKV) Start(cmd *Op, reply *OpAppendReply) Err{
 		reply.Err = ErrOverTime
 		return ErrOverTime
 	}
-}
-
-func (kv *ShardKV) getnum(shard [10]int, gid int) int{
-	num := 0
-	for _, g := range shard{
-		if(gid == g){
-			num++
-		}
-	}
-	return num
 }
 
 func (kv *ShardKV) allReceived() bool{
@@ -283,7 +268,6 @@ func (kv *ShardKV) allSent() bool{
 	}
 	return true
 }
-
 
 func (kv *ShardKV) ApplyOp() {
 	for !kv.killed() {
@@ -331,34 +315,34 @@ func (kv *ShardKV) ApplyOp() {
 						if curConfig.Num >= upConfig.Num {
 							response = OpAppendReply{ErrWrongGroup, ""}
 						}else{
+							kv.lastconfig = curConfig
+							kv.config = upConfig
 							for shard, gid := range upConfig.Shards {
-								if gid == kv.gid && curConfig.Shards[shard] == 0{
+								if gid == kv.gid && curConfig.Shards[shard] <= 0{
 									kv.shards[shard].StateMachine = make(map[string]string)
 									kv.shards[shard].ConfigNum = upConfig.Num
 								}
 							}
-							kv.lastconfig = curConfig
-							kv.config = upConfig
 							response = OpAppendReply{OK, ""}
 						}
 						
 					case "AddShard":
-						if cmd.Shard.ConfigNum < kv.config.Num || kv.shards[cmd.ShardId].StateMachine != nil{
+						if cmd.Seq < int64(kv.config.Num) || kv.shards[cmd.ShardId].StateMachine != nil{
 							break
-						}
-						for k, v := range cmd.SeqMap {
-							if r, ok := kv.seqMap[k]; !ok || r < v{
-								kv.seqMap[k] = v
-							}
-						}
+						}	
 						kv.shards[cmd.ShardId].StateMachine = make(map[string]string)
 						for k, v := range cmd.Shard.StateMachine {
 							kv.shards[cmd.ShardId].StateMachine[k] = v
 						}
 						kv.shards[cmd.ShardId].ConfigNum = cmd.Shard.ConfigNum
+						for k, v := range cmd.SeqMap {
+							if r, ok := kv.seqMap[k]; !ok || r < v{
+								kv.seqMap[k] = v
+							}
+						}
 						//log.Printf("[AddShard] gid:%d, shard:%d confignum:%d",kv.gid, cmd.ShardId, kv.config.Num)
 					case "RemoveShard":
-						if cmd.Seq < int64(kv.config.Num){
+						if cmd.Seq < int64(kv.config.Num) || kv.shards[cmd.ShardId].StateMachine == nil{
 							break
 						}
 						kv.shards[cmd.ShardId].StateMachine = nil
@@ -375,7 +359,6 @@ func (kv *ShardKV) ApplyOp() {
 				}
 
 				if _, isLeader := kv.rf.GetState(); isLeader{
-					//log.Printf("[applyOp] gid:%d reply, response:%v, commandindex:%d", kv.gid, response.Err, msg.CommandIndex)
 					ch := kv.getChan(msg.CommandIndex)
 					ch <- response
 				}
@@ -490,7 +473,6 @@ func StartServer(servers []*labrpc.ClientEnd, me int, persister *raft.Persister,
 	// Your initialization code here.
 
 	// Use something like this to talk to the shardctrler:
-	// kv.mck = shardctrler.MakeClerk(kv.ctrlers)
 	kv.mck = shardctrler.MakeClerk(kv.ctrlers)
 	kv.shards = make([]Shard, shardctrler.NShards)
 
