@@ -10,7 +10,7 @@
 
 ##### MapReduce流程总览
 
-![image-20240519153530266](photo\image-20240519153530266.png)
+![image-20240519153530266](https://github.com/Ivansyf34/Mit6.5840Lab/blob/main/photo/image-20240519153530266.png)
 
 ##### 数据结构设计
 
@@ -64,7 +64,7 @@ type Coordinator struct {
 
 ##### 测试结果
 
-![image-20240519160610837](photo\image-20240519160610837.png)
+![image-20240519160610837](https://github.com/Ivansyf34/Mit6.5840Lab/blob/main/photo/image-20240519160610837.png)
 
 ### Lab 2: Key/Value Server
 
@@ -103,7 +103,7 @@ type KVServer struct {
 
 ##### 测试结果
 
-![image-20240519163118210](photo\image-20240519163118210.png)
+![image-20240519163118210](https://github.com/Ivansyf34/Mit6.5840Lab/blob/main/photo/image-20240519163118210.png)
 
 
 
@@ -118,7 +118,7 @@ type KVServer struct {
 
 ##### Raft consensus algorithm
 
-![image-20240519212224917](photo\image-20240519212224917.png)
+![image-20240519212224917](https://github.com/Ivansyf34/Mit6.5840Lab/blob/main/photo/image-20240519212224917.png)
 
 ##### 数据结构设计
 
@@ -281,9 +281,9 @@ const (
 
 ##### 测试结果
 
-![image-20240519194943785](photo\image-20240519194943785.png)
+![image-20240519194943785](https://github.com/Ivansyf34/Mit6.5840Lab/blob/main/photo/image-20240519194943785.png)
 
-![image-20240519194958610](photo\image-20240519194958610.png)
+![image-20240519194958610](https://github.com/Ivansyf34/Mit6.5840Lab/blob/main/photo/image-20240519194958610.png)
 
 ### Lab 4: Fault-tolerant Key/Value Service
 
@@ -385,15 +385,15 @@ type IndexAndTerm struct {
 
 ##### 测试结果
 
-![image-20240519213734249](photo\image-20240519213734249.png)
+![image-20240519213734249](https://github.com/Ivansyf34/Mit6.5840Lab/blob/main/photo/image-20240519213734249.png)
 
-![image-20240519213747165](photo\image-20240519213747165.png)
+![image-20240519213747165](https://github.com/Ivansyf34/Mit6.5840Lab/blob/main/photo/image-20240519213747165.png)
 
 - 前面一直出现如上错误too slowly
 
 - 解决方法：在raft中start时，最后直接调用leadertick进行同步
 
-![image-20240519214003114](photo\image-20240519214003114.png)
+![image-20240519214003114](https://github.com/Ivansyf34/Mit6.5840Lab/blob/main/photo/image-20240519214003114.png)
 
 ### Lab 5: Sharded Key/Value Service
 
@@ -585,7 +585,7 @@ type Shard struct{
 
 ##### 测试结果
 
-![image-20240519213645569](photo\image-20240519213645569.png)
+![image-20240519213645569](https://github.com/Ivansyf34/Mit6.5840Lab/blob/main/photo/image-20240519213645569.png)
 
 
 
