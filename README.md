@@ -387,7 +387,7 @@ type IndexAndTerm struct {
 
 ![image-20240519213734249](https://github.com/Ivansyf34/Mit6.5840Lab/blob/main/photo/image-20240519213734249.png)
 
-![image-20240519213747165]([photo\](https://github.com/Ivansyf34/Mit6.5840Lab/blob/main/photo/)image-20240519213747165.png)
+![image-20240519213747165](https://github.com/Ivansyf34/Mit6.5840Lab/blob/main/photo/image-20240519213747165.png)
 
 - 前面一直出现如上错误too slowly
 
